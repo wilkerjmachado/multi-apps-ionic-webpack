@@ -11,7 +11,9 @@
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
     "build-app-b": "ionic-app-scripts build --copy ./config/copy-app-b.config.js",
-    "build-app-a": "ionic-app-scripts build --copy ./config/copy-app-a.config.js"
+    "build-watch-b": "ionic-app-scripts watch --copy ./config/copy-app-b.config.js",
+    "build-app-a": "ionic-app-scripts build --copy ./config/copy-app-a.config.js",
+    "build-watch-a": "ionic-app-scripts watch --copy ./config/copy-app-a.config.js"
   },
   "dependencies": {
     "@angular/animations": "5.2.10",
